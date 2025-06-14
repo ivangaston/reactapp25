@@ -59,4 +59,4 @@ function TaskForm({ onAdd, onUpdate, editTask }) {
   )
 }
 
-export default TaskForm
+export default TaskForm;

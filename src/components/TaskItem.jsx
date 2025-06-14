@@ -14,4 +14,4 @@ function TaskItem({ task, onDelete, onEdit, onToggle }) {
   )
 }
 
-export default TaskItem
+export default TaskItem;

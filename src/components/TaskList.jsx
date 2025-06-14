@@ -10,4 +10,4 @@ function TaskList({ tasks, onDelete, onEdit, onToggle }) {
   )
 }
 
-export default TaskList
+export default TaskList;
