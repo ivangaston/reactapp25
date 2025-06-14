@@ -7,8 +7,8 @@ function TaskItem({ task, onDelete, onEdit, onToggle }) {
       <button onClick={() => onToggle(task)}>
         {task.completed ? 'Desmarcar' : 'Completar'}
       </button>
-      <button onClick={() => onEdit(task)}>Editar</button>
-      <button onClick={() => onDelete(task.id)}>Eliminar</button>
+      <button id="btnEdit" onClick={() => onEdit(task)}>Editar</button>
+      <button id="btnDelete" onClick={() => onDelete(task.id)}>Eliminar</button>
       <hr />
     </div>
   )

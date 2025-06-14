@@ -1,4 +1,102 @@
 .done {
   text-decoration: line-through;
-  color: rgb(114, 203, 114);
+  color: rgb(74, 74, 74);
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: rgb(240, 242, 245);
+  margin: 0;
+  padding: 20px;
+  color: rgb(46, 46, 46);
+}
+
+/* Encabezado */
+h1 {
+  text-align: center;
+  color: rgb(44, 62, 80);
+}
+
+/* Contador de tareas */
+p {
+  text-align: center;
+  color: rgb(70, 70, 70);
+}
+
+/* Formulario */
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: rgb(255, 255, 255);
+  padding: 20px;
+  max-width: 500px;
+  margin: 0 auto 30px auto;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+input,
+select {
+  width: 90%;
+  padding: 10px;
+  margin-bottom: 12px;
+  border: 1px solid rgb(204, 204, 204);
+  border-radius: 5px;
+  font-size: 15px;
+}
+
+select {
+  width: 120px;
+}
+
+button {
+  width: 120px;
+  background-color: rgb(114, 202, 117);
+  color: rgb(255, 255, 255);
+  font-size: 15px;
+  padding: 8px 12px;
+  margin: 5px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+#btnEdit {
+  background-color: rgb(127, 181, 198);
+}
+
+#btnDelete {
+  background-color: rgb(225, 130, 130);
+}
+
+button:hover {
+  background-color: rgb(67, 160, 71);
+}
+
+#btnEdit:hover {
+  background-color: rgb(43, 139, 171);
+}
+
+#btnDelete:hover {
+  background-color: rgb(240, 37, 37);
+}
+
+/* Lista de tareas */
+.task-item {
+  background-color: rgb(255, 255, 255);
+  border-left: 5px solid rgb(76, 175, 80);
+  padding: 15px;
+  margin: 10px auto;
+  max-width: 600px;
+  border-radius: 6px;
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.1);
+}
+
+/* Tarea completada */
+.task-item.done {
+  background-color: rgb(224, 224, 224);
+  color: rgb(136, 136, 136);
+  text-decoration: line-through;
+  border-left-color: rgb(187, 187, 187);
 }

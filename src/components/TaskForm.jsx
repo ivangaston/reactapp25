@@ -1,6 +1,6 @@
 import { useState, useEffect } from 'react'
 
-const categorias = ['actividades', 'compras', 'tareas del hogar', 'tramites', 'programar']
+const categorias = ['actividades', 'compras', 'pendientes', 'tramites', 'programar']
 
 function TaskForm({ onAdd, onUpdate, editTask }) {
   const [title, setTitle] = useState('')
